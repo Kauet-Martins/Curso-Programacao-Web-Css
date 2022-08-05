@@ -1,0 +1,21 @@
+      
+/*ESTILIZANDO O CORPO DO TEXTO */
+body{
+    
+    /* O FUNDO DO BODY FICA COM A COR DETERMINADA */
+    background-color: blanchedalmond;
+}
+
+/* ESTILIZANDO A TAG HEADER */
+header{
+
+    /* DETERMINANDO A FONTE */
+    font-family: cursive;
+    
+    /* DETERMINANDO A POCICAO DOS ELEMENTOS CONTIDOS EM HEADER (NO CENTRO DO DOCUMENTO) */
+    text-align: center;
+    
+    /* DETERMINANDO A COR DA FONTE DOS ELEMENTOS CONTIDOS EM HEADER */
+    color: darkgray;
+    
+}
