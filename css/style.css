@@ -1,13 +1,20 @@
       
+*{
+    margin:0;
+    padding:0;
+}
+
+
+
 /*ESTILIZANDO O CORPO DO TEXTO */
 body{
     
-    /* O FUNDO DO BODY FICA COM A COR DETERMINADA */
+    /* O FUNDO DO BODY FICA COM A COR DETERMINADA*/ 
     background-color: blanchedalmond;
 }
 
 /* ESTILIZANDO A TAG HEADER */
-header{
+#titulo{
 
     /* DETERMINANDO A FONTE */
     font-family: cursive;
@@ -17,5 +24,15 @@ header{
     
     /* DETERMINANDO A COR DA FONTE DOS ELEMENTOS CONTIDOS EM HEADER */
     color: darkgray;
+
+    padding: 20px;
+    
+    margin: 20px;
+}
+
+.paragrafos{
+    background-color: darkgray;
+    padding: 14px 16px;
+    text-align:center;
     
 }
