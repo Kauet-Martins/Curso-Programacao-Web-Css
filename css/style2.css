@@ -1,7 +1,35 @@
+
+/* Propriedade que muda a cor da fonte */
 #title{
-    color:aqua
+    color:aqua;
+    background-color:crimson
 }
 
+/* Propriedade que muda a cor da fonte */
 .paragrafo{
-    color: darkgray
+    color: darkgray;
+    background-color:darkblue
+}
+
+#fundo{
+    
+    /* COLOCANDO UMA IMAGEM DE FUNDO*/
+    /* ../ VOLTA UMA PASTA DA QUE ESTAMOS (CSS) */
+    background-image: url("../img/pexels-henry-&-co-1939485.jpg");
+    
+    /* DEFININDO O TAMANHO DA IMAGEM OU COR DO FUNDO */
+    background-size: cover;
+    
+    /* DEFININDO O TAMANHO DO FUNDO NO ID FUNDO*/ 
+    height: 500px;
+
+    /* DEFININDO SE O FUNDO VAI SE REPETIR OU NAO */
+    background-repeat: no-repeat;
+
+    /* DEFININDO DE ONDE COMECA O FUNDO */
+    background-position:center;
+
+    /* DEFININDO UMA COR SOLIDA DE FUNDO */
+    background-color:bisque;
+
 }
