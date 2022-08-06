@@ -1,8 +1,45 @@
 
-/* Propriedade que muda a cor da fonte */
+
 #title{
+
+    /* Propriedade que muda a cor da fonte */
     color:aqua;
-    background-color:crimson
+    
+    /* PROPRIEDADE BORDA,  BORDA: TAMANHO TIPO COR; */
+
+    /* BORDA SOLIDA COR PRETA */
+    border: 2px solid black;
+
+    /* BORDA COM PONTOS COR PRETA 
+    border: 2px dotted black;*/
+
+    /* BORDA COM TRACOS COR PRETA 
+    border: 2px dashed black;*/
+
+    /* BORDA COM DUAS LINHAS COR PRETA
+    border: 2px double black; */
+
+    /* BORDA COM "EFEITO 3D"
+    border: 2px groove black; */
+
+    /* BORDA COM EFEITO DE ESPESSURA 
+    border: 2px ridge black; */
+
+    /* BORDA POR DENTRO 
+    border: 2px inset black; */
+
+    /* BORDA POR FORA
+    border: 2px outset black; */
+
+    /* SEM BORDA
+    border: 2px none black; */
+
+    /* BORDA ESCONDIDA
+    border: 2px hidden black; */
+
+    /* PROPRIEDADE DE ARREDONDAMENTO DA BORDA ( USAMOS PX ) */
+    border-radius: 10px
+
 }
 
 /* Propriedade que muda a cor da fonte */
