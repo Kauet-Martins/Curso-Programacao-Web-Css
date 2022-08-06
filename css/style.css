@@ -79,6 +79,9 @@ p{
     /* DEFININDO A COR DA FONTE */
     color: gray;
 
+    /* REMOVENDO A DECORACAO PADRAO DO LINK */
+    text-decoration: none;
+
 }
 
 /* CRIANDO UMA INTERACAO QUANDO PASSAMOS O MOUSE POR CIMA DO BOTAO */

@@ -120,13 +120,46 @@
     /* DEFININDO A COR DA FONTE DENTRO DO BOTAO */
     color: darkgray;
 
+    /* TIRANDO A DECORACAO PADRAO DO DO LINK */
+    text-decoration: none;
+
 }
 
 /* CRIANDO UM ELEMENTO QUE FAZ ALGO ACONTECER QUANDO O MOUSE PASSA POR CIMA DO BOTAO */
 #botao:hover{
     
     /* QUANDO PASSAMOS O MOUSE POR CIMA DO BOTAO O FUNDO FICA EM VERMELHO */
-    background-color: red
+    background-color: red;
+    
 
+}
 
+/* PROPRIEDADES DE TEXTO */
+.text{
+    
+
+    margin-top: 50px;
+    
+    margin-bottom: 50px;
+    
+    /* ALINHADO O TEXTO AO CENTRO, TAMBEM PODE SER ALINHADO PARA A DIREITA OU ESQUERDA */
+    text-align: center;
+
+    /* TIRANDO QUALQUER DECORACAO DO TEXTO PODEMOS ADICIONAR UMA LINHA EM CIMA (OVERLINE), ABAIXO (UNDERLINE) OU RISCAMOS O ELEMENTO LINE-THROUGH*/
+    text-decoration: none;
+
+    /* TRANSFORMARNDO TODO O TEXTO EM CAPSLOCK, PODEMOS TRANSFORMAR EM CAIXA BAIXA (LOWERCASE) OU DEIXAR TODAS AS PRIMEIRAS LETRAS EM CAIXA ALTA (CAPTALIZE) */
+    text-transform: uppercase;
+
+    /* DEIXANDO A PRIMEIRA LINHA RECUADA 10PX, EFEITO PARAGRAFO */
+    text-indent: 10px;
+
+    /* DEIXANDO UM ESPACO ENTRE AS LETRAS DE 4PX */
+    letter-spacing: 4px;
+
+    /* DEIXANDO UM ESPACO ENTRE AS LINHAS DE 1.5 */
+    line-height: 1.5;
+
+    /* DEIXANDO UM ESPACO ENTRE AS PALAVRAS DE 10PX */
+    word-spacing: 10px;
 }
