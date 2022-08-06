@@ -1,4 +1,9 @@
 
+*{
+    margin: 0;
+    padding:0;
+}
+
 
 #title{
 
@@ -38,14 +43,31 @@
     border: 2px hidden black; */
 
     /* PROPRIEDADE DE ARREDONDAMENTO DA BORDA ( USAMOS PX ) */
-    border-radius: 10px
+    border-radius: 10px;
+
+    /* PROPRIEDADE QUE CRIA ESPACOS EM BRANCO NO TOPO (TOP) DIREITA (RIGHT) ESQUERDA (LEFT) E EM BAIXO (BOTTOM) */
+    margin: 50px 450px 50px 450px;
+    
+
+    /* ALINHA O TEXTO DE ACORDO COM A FORMA ESCOLHIDA (CENTER, LEFT, RIGHT */
+    text-align:center;
 
 }
 
 /* Propriedade que muda a cor da fonte */
 .paragrafo{
     color: darkgray;
-    background-color:darkblue
+    
+    background-color:darkblue;
+
+    /* PROPRIEDADE ESCRITA E ESPECIFICANDO CADA LUGAR */
+    margin-left: 15px;
+
+    margin-top: 50px;
+
+    margin-bottom: 50px;
+
+    margin-right: 15px;
 }
 
 #fundo{
