@@ -57,3 +57,35 @@ p{
 
     margin-right: 15px;
 }
+
+/* CRIANDO UM BOTAO SIMPLE */
+.botao{
+    
+    /* CRIANDO UMA BORDA PARA O BOTAO */
+    border: 2px solid black;
+    
+    /* TORNANDO A BORDA ARREDONDADA */
+    border-radius: 15px;
+
+    /* DEFININDO A COR DO FUNDO */
+    background-color: aqua;
+
+    /* CRIANDO ESPACOS EM BRANCO ENTRE A PAGINA E A ESQUERDA DO BOTAO */
+    margin-left: 50%;
+
+    /* CRIANDO ESPACOS EM BRANCO DENTRO DO ELEMENTO (20PX PARA CADA LADO) */
+    padding: 20px;
+    
+    /* DEFININDO A COR DA FONTE */
+    color: gray;
+
+}
+
+/* CRIANDO UMA INTERACAO QUANDO PASSAMOS O MOUSE POR CIMA DO BOTAO */
+.botao:hover{
+    
+    /* O FUNDO MUDA DE COR AO PASSARMOS O MOUSE POR CIMA DO BOTAO */
+    background-color: blue
+
+
+}

@@ -80,7 +80,7 @@
     background-size: cover;
     
     /* DEFININDO O TAMANHO DO FUNDO NO ID FUNDO*/ 
-    height: 500px;
+    height: 200px;
 
     /* DEFININDO SE O FUNDO VAI SE REPETIR OU NAO */
     background-repeat: no-repeat;
@@ -90,5 +90,43 @@
 
     /* DEFININDO UMA COR SOLIDA DE FUNDO */
     background-color:bisque;
+
+    margin-bottom: 100px
+
+}
+
+
+/* CRIANDO UM BOTAO SIMPLES */
+#botao{
+   
+    /* CRIANDO A BORDA DO BOTAO */
+    border: 2px solid black;
+
+    /* DEIXANDO A BORDA REDONDA */
+    border-radius: 15px;
+
+    /* CRIANDO UM ESPACO EM BRANCO ENTRE A ESQUERDA DA PAGINA E O BOTAO */
+    margin-left: 50%;
+
+    /* CRIANDO UM ESPACO EM BRANCO ENTRE A PARTE DE BAIXO DA PAGINA E O BOTAO */
+    margin-bottom: 100px;
+
+    /* CRIA ESPACOS EM BRANCO DENTRO DO ELEMENTO */
+    padding: 10px;
+
+    /* DEFININDO UMA COR PARA  O FUNDO */
+    background-color: blanchedalmond;
+
+    /* DEFININDO A COR DA FONTE DENTRO DO BOTAO */
+    color: darkgray;
+
+}
+
+/* CRIANDO UM ELEMENTO QUE FAZ ALGO ACONTECER QUANDO O MOUSE PASSA POR CIMA DO BOTAO */
+#botao:hover{
+    
+    /* QUANDO PASSAMOS O MOUSE POR CIMA DO BOTAO O FUNDO FICA EM VERMELHO */
+    background-color: red
+
 
 }
