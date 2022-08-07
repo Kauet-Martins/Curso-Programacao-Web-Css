@@ -1,4 +1,8 @@
 
+/* IMPORTANDO UMA FONTE EXTERNA */
+@import url('https://fonts.googleapis.com/css2?family=Bahianita&display=swap');
+
+
 *{
     margin: 0;
     padding:0;
@@ -137,9 +141,10 @@
 /* PROPRIEDADES DE TEXTO */
 .text{
     
-
+    /* CRIANDO UM ESPACO ENTRE  O TOPO E O TEXTO */
     margin-top: 50px;
     
+    /* CRIANDO UM ESPACO ENTRE OS ELEMENTOS ABAIXO E O TEXTO */
     margin-bottom: 50px;
     
     /* ALINHADO O TEXTO AO CENTRO, TAMBEM PODE SER ALINHADO PARA A DIREITA OU ESQUERDA */
@@ -162,4 +167,30 @@
 
     /* DEIXANDO UM ESPACO ENTRE AS PALAVRAS DE 10PX */
     word-spacing: 10px;
+}
+
+/* PROPRIEDADES DE FONTE */
+.font{
+   
+    /* CRIANDO UM ESPACO DE 50PX EM TODAS AS DIRECOES */
+    margin: 50px;
+
+    /* CRIANDO UM ESPACO DE 50PX ENTRE OS ELEMENTOS */
+    padding: 50px;
+
+    /* CRIANDO UM ESPACO ENTRE AS LETRAS */
+    letter-spacing: 3px;
+
+    /* ESCOLHENDO UMA FONTE PARA O TEXTO */
+    font-family: 'Bahianita', cursive;
+
+    /* ESCOLHENDO O TAMANHO DA FONTE */
+    font-size: 25px;
+
+    /* ESCOLHENDO A ESPESSURA DA FONTE */
+    font-weight:lighter;
+
+    /* ESCOLHENDO O ESTILO */
+    font-style:normal;
+
 }
