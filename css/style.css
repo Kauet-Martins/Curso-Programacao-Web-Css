@@ -71,7 +71,7 @@ p{
     background-color: aqua;
 
     /* CRIANDO ESPACOS EM BRANCO ENTRE A PAGINA E A ESQUERDA DO BOTAO */
-    margin-left: 50%;
+    margin: 30%;
 
     /* CRIANDO ESPACOS EM BRANCO DENTRO DO ELEMENTO (20PX PARA CADA LADO) */
     padding: 20px;
@@ -91,4 +91,74 @@ p{
     background-color: blue
 
 
+}
+
+/* CRIANDO UM BOTAO */
+.botao2{
+   
+    /* DEFINIDO UM ESPACO EM BRANCO EM TODAS AS DIRECOES */
+    margin: 30px;
+
+    /* DEFININDO UM ESPACO EM BRANCO ENTRE OS ELEMENTOS */
+    padding: 20px;
+
+    /* DEFINIDO UMA BORDA */
+    border: 3px solid red;
+
+    /* TIRANDO A DECORACAO PRE DEFINIDA */
+    text-decoration: none;
+
+    /* ARREDONDANDO A BORDA */
+    border-radius: 15px;
+
+    /* DEFININDO A COR DO TEXTO */
+    color:gray;
+
+}
+
+/* CRIANDO UMA INTERACAO AO PASSARMOS O CURSOR POR CIMA */
+.botao2:hover{
+    
+    /* QUANDO PASSARMOS O CURSOR POR CIMA O FUNDO FICA NA COR DARKRED */
+    background-color: darkred;
+    
+    /* QUANDO PASSARMOS O CURSOR POR CIMA A BORDA AUMENTA */
+    border: 5px solid red;
+
+}
+
+/* CRIANDO UM BOTAO */
+.botao3{
+
+    /* DEFINIDO UM ESPACO EM TODAS AS DIRECOES */
+    margin: 30px;
+
+    /* DEFININDO UM ESPACO DENTRO DO ELEMENTO EM TODAS AS DIRECOES */
+    padding: 20px;
+
+   /* CRIANDO UMA BORDA PRETA */
+    border: 3px solid black;
+
+    /* EXCLUINDO A DECORACAO PRE-DEFINIDA */
+    text-decoration: none;
+   
+    /* ARREDONDANDO A BORDA */
+    border-radius: 15px;
+
+    /* DEFININDO UMA COR PARA O TEXTO */
+    color: gray;
+
+}
+
+/* CRIANDO UMA INTERACAO QUANDO PASSARMOS O MOUSE POR CIMA */
+.botao3:hover{
+
+    /* QUANDO PASSARMOS O MOUSE POR CIMA O FUNDO FICA AMARELO */
+    background-color:yellow;
+
+    /* QUANDO PASSARMOS O MOUSE POR CIMA O TEXTO FICA SUBLINHADO */
+    text-decoration:underline;
+
+    /* QUANDO PASSAMOS O MOUSE POR CIMA A BORDA DIMINUI */
+    border: 2px solid black;
 }
