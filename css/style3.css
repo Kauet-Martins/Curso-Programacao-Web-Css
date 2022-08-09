@@ -1,0 +1,123 @@
+
+/* RETIRANDO A MARGEM E O PREENCHIMENTO PADRAO */
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* ESTILIZANDO TODOS OS H1 */
+h1{
+
+    /* ALINHADO O TEXTO AO MEIO */
+    text-align: center;
+
+    /* DEFININDO A FONTE */
+    font-family: cursive;
+
+    /* COLOCANDO ESPACOS ENTRE AS  LETRAS */
+    letter-spacing: 2px;
+
+}
+
+/* ESTILIZANDO TODAS AS TAGS NAV */
+nav{
+
+    /* DEFININDO SEU FUNDO */
+    background-color: gray;
+
+    /* DEFININDO O TAMANHO DO FUNDO */
+    height: 30px;
+}
+
+/* ESLIZIANDO A TAG TAB PARA FORMAR UMA BARRA DE NAVEGACAO */
+.tab{
+
+    /* COLOCANDO OS ELEMENTOS DA LISTA TODOS EM UMA MESMA LINHA */
+    display: inline-block;
+
+    /* COLOCANDO UM ESPACO ENTRE AS LETRAS */
+    letter-spacing: 2px;
+
+    /* DEFININDO UMA MARGEM A ESQUERDA */
+    margin-left: 15px;
+
+
+}
+
+/* ESTILIZANDO TODOS AS TAGS A */
+a{
+
+    /* REMOVENDO A ESTILIZACAO PRE-DEFINIDA */
+    text-decoration: none;
+
+    /* DEFINIDO A COR DA FONTE */
+    color: white;
+
+    /* DEFININDO O TIPO DA FONTE */
+    font-family: cursive;
+
+}
+
+/* CRIANDO UMA INTERACAO AO PASSARMOS O MOUSE POR CIMA DOS ELEMENTOS */
+a:hover{
+
+    /* AO PASSARMOS O MOUSE POR CIMA CRIA UMA BORDA ABAIXO DO ELEMENTO */
+    border-bottom: 3px solid white;
+
+}
+
+/* ESTILIZANDO OS PARAGRAFOS */
+.p1{
+
+    /* COLOCANDO TODOS NA MESMA LINHA */
+    display:inline-block;
+
+    /* DEFININDO O TIPO DE FONTE */
+    font-family: cursive;
+
+    /* DEFININDO A LARGURA DOS PARAGRAFOS PARA DIVIDR ELES NO MEIO */
+    width: 45%;
+
+    /* ALINHANDO O TEXTO AO CENTRO */
+    text-align: center;
+
+    /* COLOCANDO UMA MARGEM DE 40PX A ESQUERDA */
+    margin-left: 40px;
+
+    /* DEFININDO O TAMANHO DAS LETRAS */
+    font-size: 15px;
+
+    /* DEFININDO UM ESPACO ENTRE AS LETRAS */
+    letter-spacing: 2px;
+
+}
+
+/* ESTILIZANDO TODAS AS TAGS H2 */
+h2{
+
+    /* ESCOLHENDO O TIPO DE FONTE */
+    font-family: cursive;
+
+    /* COLOCANDO TODOS NA MESMA LINHA (TROCANDO O DISPLAY PADRAO (BLOCK) ) */
+    display: inline-block;
+
+    /* CRIANDO UMA BORDA */
+    border: 1px solid gray;
+
+    /* ARREDONDANDO AS BORDAS */
+    border-radius: 12px;
+
+    /* DEFININDO UMA MARGEM DE 10PX AO TOPO */
+    margin-top: 10px;
+
+    /* DEFININDO UMA MARGEM DE 10PX ABAIXO */
+    margin-bottom: 10px;
+}
+
+/* CRIANDO UMA INTERACAO QUANDO PASSAMOS O MOUSE POR CIMA */
+h2:hover{
+
+    /* AO PASSARMOS O MOUSE POR CIMA O FUNDO FICA NA COR AQUA */
+    background-color: aqua;
+
+}

@@ -71,7 +71,7 @@ p{
     background-color: aqua;
 
     /* CRIANDO ESPACOS EM BRANCO ENTRE A PAGINA E A ESQUERDA DO BOTAO */
-    margin: 30%;
+    margin-left: 150px;
 
     /* CRIANDO ESPACOS EM BRANCO DENTRO DO ELEMENTO (20PX PARA CADA LADO) */
     padding: 20px;
@@ -81,6 +81,8 @@ p{
 
     /* REMOVENDO A DECORACAO PADRAO DO LINK */
     text-decoration: none;
+
+    
 
 }
 
