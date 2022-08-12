@@ -6,6 +6,10 @@
 }
 
 
+body{
+    background-color:wheat;
+}
+
 /* ESTILIZANDO TODOS OS H1 */
 h1{
 
@@ -122,15 +126,123 @@ h2:hover{
     background-color: aqua;
 
 }
+
+/* ADICIONANDO IMAGEM */
  .fig{
 
+    /* TORNANDO O DISPLAY EM LINHA */
     display: inline;
 
+    /* DEFININDO UMA MARGEM A ESQUERDA */
     margin-left: 40px;
 
+    /* DEFININDO A LARGURA MAXIMA */
     max-width: 600px;
 
+    /* DEFININDO MARGEM NO TOP */
     margin-top: 20px;
  
  }
+
+ /* ESTILIZANDO UM CONTAINER */
+ .container{
+
+    /*TORNANDO O FUNDO AZUL */
+    background-color: blue;
+
+    /* DEFININDO SUA ALTURA */
+    height: 300px;
+ }
+
+ /* ESTILIZANDO A DIV DENTRO DE CONTAINER */
+ .div1{
+
+    /* DEFININDO A POSICAO RELATIVA EM RELACAO AO LOCAL QUE ESTA PRESENTE */
+    position: relative;
+
+    /* RELATIVA EM RELACAO AO TOPO 50PX
+    top: 50px;
+
+    /* RELATIVA EM RELACAO A ESQUERDA 20PX */
+    left: 20px;
+    
+    /* DEFININDO A COR DO FUNDO */
+    background-color: red;
+
+    /* DEFININDO O DISPLAY EM LINHA-BLOCO */
+    display: inline-block;
+
+    /* DEFININDO SUA LARGURA */
+    width: 100px;
+
+    /* DEFININDO SUA ALTURA */
+    height: 100px;
+ }
+
+ /* ESTILIZANDO UMA DIV DENTRO DE CONTAINER */
+ .div2{
+
+    /* DEFININDO SUA POSICAO RELATIVA */
+    position: relative;
+
+    /* RELATIVO A DIREITA 80PX */
+    right: 80px;
+
+    /* RELATIVO EM RELACAO AO TOPO 53PX */
+    top: 53px;
+
+    /* DEFININDO A COR DO FUNDO */
+    background-color: gray;
+
+    /* DEFININDO O DISPLAY EM LINHA-BLOCO */
+    display: inline-block;
+
+    /* DEFININDO A LARGURA */
+    width: 100px;
+
+    /* DEFININDO A ALTURA */
+    height: 100px;
+
+ }
+
+ /* ESTILIZANDO UMA DIV EM CONTAINER */
+ .div3{
+
+    /* DEFININDO SUA POSICAO EM STICKY (GRUDENTO) */
+    position: sticky;
+
+    /* STICKY EM RELACAO AO TOPO */
+    top: 10px;
+
+    /* DEFININDO A COR DO FUNDO */
+    background-color: green;
+
+    /* DEFININDO SEU DISPLAY PARA LINHA-BLOCO */
+    display: inline-block;
+
+    /* DIFININDO SUA LARGURA */
+    width: 100px;
+
+    /* DEFININDO SUA ALTURA */
+    height: 100px;
+}
+
+/* CRIANDO UM LOGO QUE FICA NO CANTO DA TELA INDEPENDENTE DE ONDE A BARRA DE ROLAGEM ESTIVER */
+.whats{
+
+    /* DEFININDO A POSICAO COMO FIXA */
+    position: fixed;
+
+    /* FIXA EM BAIXO 10PX */
+    bottom: 10px;
+
+    /* FIXA A DIREITA 10PX */
+    right: 10px;
+
+    /* DEFININDO SUA LARGURA */
+    width: 34px;
+
+    /* DEFININDO SUA ALTURA */
+    height: 34px;
+}
 
