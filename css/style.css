@@ -226,3 +226,59 @@ p{
     font-size: 30px;
 
 }
+
+/* EFEITO AO PASSARMOS O MOUSE POR CIMA */
+.img1:hover{
+    
+    /* DIMUNIU A OPACIDADE */
+    opacity: 0.8;
+
+}
+
+/* EFEITO AO PASSARMOS O MOUSE POR CIMA */
+.img2:hover{
+
+    /* A OPACIDADE DIMINUI */
+    opacity: 0.6;
+
+}
+
+/* EFEITO AO PASSARMOS O MOUSE POR CIMA */
+.img3:hover{
+
+    /* A OPACIDADE DIMINUI */
+    opacity: 0.4;
+
+}
+
+/* BOTAO SIMPLES PARA EXEMPLO */
+.opc{
+
+    /* TIRANDO A DECORACAO PRE DEFINIDA */
+    text-decoration: none;
+
+    /* TORNANDO O DISPLAY EM LINHA-BLOCO */
+    display: inline-block;
+
+    /* DEFININDO UMA MARGEM AO TOPO */
+    margin-top: 20px;
+
+    /* AUMENTANDO O PREENCHIMENTO */
+    padding: 15px;
+
+    /* ESCOLHENDO UMA COR DE FUNDO */
+    background-color: blue;
+
+    /* DEFININDO UMA BORDA */
+    border: 1px solid darkblue;
+
+    /* DEFININDO A COR DO TEXTO */
+    color: white;
+}
+
+/* EFEITO AO PASSARMOS O MOUSE POR CIMA */
+.opc:hover{
+
+    /* DIMINUI A OPACIDADE */
+    opacity: 0.7;
+}
