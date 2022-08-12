@@ -116,6 +116,8 @@ p{
     /* DEFININDO A COR DO TEXTO */
     color:gray;
 
+    margin-bottom: 50px;
+
 }
 
 /* CRIANDO UMA INTERACAO AO PASSARMOS O CURSOR POR CIMA */
@@ -150,6 +152,8 @@ p{
     /* DEFININDO UMA COR PARA O TEXTO */
     color: gray;
 
+    margin-bottom:  50px;
+
 }
 
 /* CRIANDO UMA INTERACAO QUANDO PASSARMOS O MOUSE POR CIMA */
@@ -163,4 +167,62 @@ p{
 
     /* QUANDO PASSAMOS O MOUSE POR CIMA A BORDA DIMINUI */
     border: 2px solid black;
+}
+
+/* DEFININDO UMA DIV CONTAINER */
+.container{
+
+    /* DEFININDO UMA BORDA */
+    border: 2px solid black;
+
+    /* AJUSTANDO O ELEMENTO AO TAMANHO DE CONTAINER */
+    overflow: auto;
+
+    /* DEFININDO UMA MARGEM AO TOPO */
+    margin-top: 50px;
+
+    /* DEFININDO A COR DE FUNDO */
+    background-color: white;
+}
+
+/* ESTILIZANDO TODAS AS IMAGENS DENTRO DA CLASSE CONTAINER */
+.container img{
+
+    /* DEFININDO UMA MARGEM A DIREITA */
+    margin-right: 20px;
+
+    /* DEFININDO UMA MARGEM A ESQUERDA */
+    float: left;
+
+}
+
+/* ESTILIZANDO TODOS O PARAGRAFOS DENTRO DE CONTAINER */
+.container p{
+    
+    /* DEFININDO UMA MARGEM AO TOP */
+    margin-top: 10px;
+
+    /* DEFININDO UMA MARGEM ABAIXO */
+    margin-bottom: 20px;
+
+    /* DEFININDO A FONTE DOS PARAGRAFOS */
+    font-family: cursive;
+
+}
+
+/* ESTILIZANDO TODOS OS H3 DENTRO DE CONTAINER */
+.container h3{
+
+    /* DEFININDO UMA MARGEM AO TOPO DE 20PX */
+    margin-top: 20px;
+
+    /* DEFININDO UMA MARGEM ABAIXO */
+    margin-bottom: 20px;
+
+    /* ALINHANDO O TEXTO AO CENTRO */
+    text-align: center;
+
+    /* DEFININDO O TAMANHO DA FONTE */
+    font-size: 30px;
+
 }

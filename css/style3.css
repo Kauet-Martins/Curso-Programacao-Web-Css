@@ -270,3 +270,14 @@ h2:hover{
     /* DEFININDO UMA MARGEM PARA TODOS OS LADOS */
     margin: 40px;
 }
+
+.flutuando{
+
+    float:right;
+
+}
+
+.sec1{
+    border: 2px solid black;
+    overflow: auto;
+}
