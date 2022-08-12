@@ -246,3 +246,27 @@ h2:hover{
     height: 34px;
 }
 
+/* USO DE OVERFLOW */
+.over{
+
+    /* DEFININDO A COR DO FUNDO */
+    background-color: red;
+
+    /* DEFININDO A ALTURA */
+    height: 100px;
+
+    /* SE O ELEMENTO FOR MAIOR QUE A ALTURA ESCOLHIDA CRIA UMA BARRA DE ROLAGEM */
+    overflow:auto;
+
+    /* DEIXA O CONTEUDO DE FORA ESCINDIDO PODE SER USADO PARA ESCONDER A BARRA DE ROLAGEM DO NAVEGADOR 
+    overflow: hidden; */
+
+    /* DEIXA O CONTEUDO SEMPRE COM UMA BARRA DE ROLAMENTO
+    overflow: scroll; */
+
+    /* DEIXA O ELEMENTO VISIVEL MESMO QUE ULTRAPASSE A ALTURA QUE ESCOLHEMOS
+    overflow: visible; */
+
+    /* DEFININDO UMA MARGEM PARA TODOS OS LADOS */
+    margin: 40px;
+}
