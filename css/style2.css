@@ -194,3 +194,99 @@
     font-style:normal;
 
 }
+
+/* ESTILIZANDO AS LISTA NAO ORDENADAS */
+ul{
+    /* DEFININDO O FUNDO */
+    background: black;
+    
+    /* DEFININDO O ESTILO DA LISTA */
+    list-style-type: none;
+
+    /* DEFININDO A MARGEM */
+    margin: 0;
+
+    /* DEFININDO O PREENCHIMENTO */
+    padding: 0;
+
+    /* ESCONDENDO TEXTOS MAIORES QUE O TAMANHO DEFINIDO */
+    overflow: hidden;
+   
+}
+
+/* ESTILIZANDO AS LISTAS */
+li{
+
+    /* FLUTUANDO A ESQUERDA */
+    float: left;
+
+}
+
+/* ESTILIZANDO TODOS OS LINKS DENTRO DE LISTAS */
+li a{
+
+    /* TIRANDO AS DECORACOES PRE-DEFINIDAS */
+    text-decoration: none;
+
+    /* DEFININDO O PREENCHIMENTO */
+    padding: 14px 16px;
+
+    /* DEFININDO O ALINHAMENTO DO TEXTO */
+    text-align: center;
+
+    /* DEFININDO A COR DA FONTE */
+    color: white;
+
+}
+
+/* QUANDO PASSARMOS O MOUSE POR CIMA */
+li a:hover, .dropdown:hover .dropbtn{
+
+    /* O FUNDO FICA EM VERMELHO */
+    background-color: red;
+
+}
+
+/* ESTILIZANDO UMA LISTA COM A CLASSE DROPDOWN */
+li.dropdown{
+
+    /* DISPLAY LINHA-BLOCO */
+    display: inline-block;
+}
+
+/* ESTILIZANDO A CLASSE DROP-CONTENT */
+.drop-content{
+
+    /* REMOVENDO O DISPLAY */
+    display: none;
+
+    /* TORNANDO A POSICAO DEPENDENTE DE UM ANCESTRAL */
+    position: absolute;
+
+    /* DEFININDO A COR DA FONTE */
+    color: white;
+
+    /* DEFININDO A LARGURA */
+    width: 150px;
+}
+
+/* ESTILIZANDO OS LINKS DA CLASSE DROP-CONTENT */
+.drop-content a{
+
+    /* DEFININDO A COR DAS FONTES */
+    color: black;
+
+    /* DEFININDO O DISPLAY */
+    display: block;
+
+    /* DEFININDO O ALINHAMENTO DO TEXTO */
+    text-align: left;
+    
+}
+
+/* AO PASSARMOS O MOUSE POR CIMA */
+.dropdown:hover .drop-content{
+
+    /* O DISPLAY REAPARECE */
+    display: block;
+}
