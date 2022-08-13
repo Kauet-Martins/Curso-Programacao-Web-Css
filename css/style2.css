@@ -342,7 +342,7 @@ li.dropdown{
     width: 18%;
 
     /* DEFININDO SUA ALTURA EM PX */
-    height: 300px;
+    height: auto;
 
     /* DEFININDO UMA MARGE A ESQUERDA */
     margin-left: 20px;
@@ -358,6 +358,15 @@ li.dropdown{
 
     /* ARREDONDANDO A BORDA */
     border-radius: 10px;
+
+    /* OS ELEMENTOS DA CLASSE CARD FICAM FLUTUANDO A ESQUERDA */
+    float: left;
+
+    /* DEFININDO UMA MARGEM A DIREITA
+    margin-right: 30px;
+
+    /* DEFININDO UM PREENCHIMENTO ABAIXO */
+    padding-bottom: 30px;
 
 }
 
@@ -382,5 +391,29 @@ li.dropdown{
 
     /* AUMENTA O EFEITO DE SOMBREAMENTO */
     box-shadow: 10px 10px 18px gray;
+
+}
+
+/* ESTILIZANDO UM ELEMENTO MAIOR QUE A ALTURA E A LARGURA DEFINIDA */
+.reduzido{
+
+    /* DEIXANDO O CONTEUDO TODO EM APENAS UMA LINHA */
+    white-space: nowrap;
+
+    /* ESCONDENDO AS PALAVRAS QUE ULTRAPASSAM A ALTURA E A LARGURA DEFINIDOS */
+    overflow: hidden;
+
+    /* MOSTRA PARA O USUARIO ... QUE SIGNIFICA QUE ALI POSSUI MAIS CONTEUDO */
+    text-overflow: ellipsis;
+
+    
+
+}
+
+/* EFEITO AO PASSARMOS O MOUSE POR CIMA */
+.card:hover .reduzido{
+
+    /* O CONTEUDO ANTES ESCONDIDO APARECE */
+    white-space: normal;
 
 }
