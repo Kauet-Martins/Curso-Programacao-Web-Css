@@ -10,7 +10,7 @@
 body{
     
     /* O FUNDO DO BODY FICA COM A COR DETERMINADA*/ 
-    background-color: blanchedalmond;
+    background-image: linear-gradient(-20deg, #e9defa 0%, #fbfcdb 100%);
 }
 
 /* ESTILIZANDO ALGO A PARTIR DE UM ID */
@@ -281,4 +281,50 @@ p{
 
     /* DIMINUI A OPACIDADE */
     opacity: 0.7;
+}
+
+/* EFEITO DE DEGRADE */
+#gradiente{
+
+    /* DEFININDO A ALTURA DA DIV */
+    height: 400px;
+
+    /* DEFININDO A LARGURA */
+    width: 600px;
+
+    /* DEFININDO A COR GRADIENTE DA DIV */
+    background-image: linear-gradient(to bottom left, #a18cd1 0%, #fbc2eb 100%);
+
+    /* DEFININDO UMA MARGEM PARA TODOS OS LADOS */
+    margin: 10px;
+
+    /* DEFININDO UMA BORDA EXCONDIDA */
+    border: 1px hidden black;
+
+    /* DEIXANDO A BORDA ARREDONDADA */
+    border-radius: 30px;
+
+}
+
+/* EFEITO DEGRADE */
+#gradiente2{
+
+    /* DEFININDO A ALTURA DA DIV */
+    height: 400px;
+
+    /* DEFININDO A LARGURA DA DIV */
+    width: 600px;
+
+    /* DEFININDO O EFEITO DE GRADIENTE */
+    background-image: linear-gradient(to top right, #30cfd0 0%, #330867 100%);
+
+    /* DEFININDO UMA MARGEM PARA TODOS OS LADOS */
+    margin: 10px;
+
+    /* DEFININDO UMA BORDA ESCONDIDA */
+    border: 1px hidden black;
+
+    /* ARREDONDANDO A BORDA */
+    border-radius: 40px;
+
 }
